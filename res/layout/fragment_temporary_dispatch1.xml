@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="144px"
+        android:background="@color/blue" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="调度任务"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="132px"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector0"
+            android:src="@drawable/button_back" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="45px"
+            android:layout_weight="7.5"
+            android:text="车辆停放地点\n\n财智国际大厦地下停车场二层B7车位\n中关村东路18号"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30px"
+            android:layout_marginTop="30px"
+            android:layout_weight="0"
+            android:background="@color/greyline" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2.5"
+            android:background="@drawable/selector0"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="导航"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton_findCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72px"
+        android:background="@drawable/find_car" />
+
+    <ImageView
+        android:id="@+id/imageView_car"
+        android:layout_width="258px"
+        android:layout_height="127.5px"
+        android:layout_marginTop="30px" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:text="江淮  iEV5  舒适型"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:background="@drawable/shape_stroke_blue"
+        android:padding="15px"
+        android:text="京 P .23878"
+        android:textColor="@color/blue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69px"
+        android:text="任务剩余时间： 00分00秒" />
+
+    <ImageButton
+        android:id="@+id/imageButton_openDoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81px"
+        android:background="@drawable/open_car_door" />
+
+</LinearLayout>

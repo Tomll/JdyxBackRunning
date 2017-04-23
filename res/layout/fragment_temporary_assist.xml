@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="144px"
+        android:background="@color/blue" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="协助任务"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="132px"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector0"
+            android:src="@drawable/button_back" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="45px"
+                    android:layout_weight="7.5"
+                    android:text="目标网点车位\n\n北京大学停车场二A27车位\n颐和园路5号" />
+
+                <TextView
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="30px"
+                    android:layout_marginTop="30px"
+                    android:layout_weight="0"
+                    android:background="@color/greyline" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2.5"
+                    android:background="@drawable/selector0"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="导航"
+                    android:textColor="@color/blue" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/greyline" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="156px"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="30px" >
+
+                <LinearLayout
+                    android:id="@+id/switch_l1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector0"
+                    android:clickable="true"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/open_door"
+                        android:text=" 开车门"
+                        android:textColor="@color/blue" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="@color/greyline" />
+
+                <LinearLayout
+                    android:id="@+id/switch_l2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector0"
+                    android:clickable="true"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/lock_door"
+                        android:text=" 锁车门"
+                        android:textColor="@color/blue" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="@color/greyline" />
+
+                <LinearLayout
+                    android:id="@+id/switch_l3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector0"
+                    android:clickable="true"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/lock_window"
+                        android:text=" 关车窗"
+                        android:textColor="@color/blue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView_car"
+                android:layout_width="258px"
+                android:layout_height="127.5px"
+                android:layout_marginTop="57px" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:text="江淮  iEV5  舒适型"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:background="@drawable/shape_stroke_blue"
+                android:padding="15px"
+                android:text="京 P .23878"
+                android:textColor="@color/blue"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="45px"
+                android:layout_marginTop="117px"
+                android:text="任务报告："
+                android:textColor="@color/greytext"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="516px"
+                android:layout_margin="45px"
+                android:gravity="start"
+                android:hint="详细内容汇报......"
+                android:lineSpacingMultiplier="1.2"
+                android:textSize="14sp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/button_complete_task"
+                android:layout_width="621px"
+                android:layout_height="120px"
+                android:layout_marginBottom="30px"
+                android:layout_marginTop="96px"
+                android:background="@drawable/shape_fill_blue"
+                android:text="完成任务"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

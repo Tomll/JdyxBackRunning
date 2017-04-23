@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="144px"
+        android:background="@color/blue" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="临时任务"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_left_right"
+        android:layout_width="405px"
+        android:layout_height="93px"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="36px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="0.8dp" >
+
+        <RadioButton
+            android:id="@+id/radio_dispatch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_left_checkbox"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="调度"
+            android:textColor="@drawable/selector_left_checkbox"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/radio_assist"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_right_checkbox"
+            android:button="@null"
+            android:gravity="center"
+            android:text="协助"
+            android:textColor="@drawable/selector_right_checkbox"
+            android:textSize="13sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/greyline" />
+
+    <ListView
+        android:id="@+id/listView_task"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

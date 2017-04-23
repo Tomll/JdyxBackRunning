@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/jdyxtech/backrunning/activity/Home.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/activity/MainActivity.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/fragment/CarExceptionReportFragmet.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/fragment/DayWorkFragment.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/fragment/DeviceExceptionReportFragmet.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/fragment/ExceptionReportFragment.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/fragment/MeFragment.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/fragment/ResetPwdFragment.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/fragment/TemporaryTaskFragment.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/javabean/LoginBean.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/javabean/SigninBean.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/util/NetWorkUtils.java=UTF-8
+encoding//src/com/jdyxtech/backrunning/widget/CircleImageView.java=UTF-8
+encoding/<project>=UTF-8
